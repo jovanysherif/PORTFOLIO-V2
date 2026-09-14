@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    /* Default: Black letter for Light Mode background */
+    .favicon-text {
+      fill: #000000;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 100px;
+      dominant-baseline: central;
+      text-anchor: middle;
+    }
+
+    /* Change to White letter when the user is in Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      .favicon-text {
+        fill: #FFFFFF;
+      }
+    }
+  </style>
+  <text x="50" y="50" class="favicon-text">J</text>
+</svg>
